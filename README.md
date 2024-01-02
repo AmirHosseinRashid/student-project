@@ -1,8 +1,7 @@
-![OJKB6X1](https://user-images.githubusercontent.com/129991304/234034200-78f0bc0a-6d43-4a94-9097-fde1cfab0554.png)
+![OJKB6X1](https://s6.uupload.ir/files/imageamir_02vl.jpg)
 
 
-Name Developer : AmirHossein Rashid
+ Hello, this academic project was carried out and implemented by **Amirhossein Rashid** with the assistance of **Ali Asghar Valizadeh**.
 
-email : Amirhossin.12rashid.82@gmail.com
- 
-instageram : AmirHosseinRashid_
+Email: Amirhossin.12rashid.82@gmail.com
+
