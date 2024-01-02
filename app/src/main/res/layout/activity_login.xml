@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#72E1DEDE"
+    tools:context=".LoginActivity">
+
+
+    <View
+        android:id="@+id/view"
+        android:background="@drawable/login_register"
+        android:layout_width="370dp"
+        android:layout_height="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Login"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+    <EditText
+        android:id="@+id/textfildUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/text_fild"
+        android:ems="10"
+        android:hint="    UserName"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="Autofill,HardcodedText,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/textfildPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/text_fild"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="    Password"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/textfildUserName"
+        tools:ignore="Autofill,HardcodedText,MissingConstraints,TextFields" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_button"
+        android:text="Login"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/textfildPassword"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Register?"
+        android:textColor="#85000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/btnlogin"
+        tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

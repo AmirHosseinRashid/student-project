@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#72E1DEDE"
+    tools:context=".RegisterActivity">
+
+    <View
+        android:id="@+id/viewRegister"
+        android:layout_width="370dp"
+        android:layout_height="600dp"
+        android:background="@drawable/login_register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/textView2Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Register"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/viewRegister"
+        app:layout_constraintStart_toStartOf="@+id/viewRegister"
+        app:layout_constraintTop_toTopOf="@+id/viewRegister"
+        tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+    <EditText
+        android:id="@+id/textfildUserNameRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/text_fild"
+        android:ems="10"
+        android:hint="    UserName"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/viewRegister"
+        app:layout_constraintStart_toStartOf="@+id/viewRegister"
+        app:layout_constraintTop_toBottomOf="@+id/textView2Register"
+        tools:ignore="Autofill,HardcodedText,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/textfildPasswordRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/text_fild"
+        android:ems="10"
+        android:hint="    Password"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/viewRegister"
+        app:layout_constraintStart_toStartOf="@+id/viewRegister"
+        app:layout_constraintTop_toBottomOf="@+id/textfildUserNameRegister"
+        tools:ignore="Autofill,HardcodedText,MissingConstraints,TextFields" />
+
+    <Button
+        android:id="@+id/button2Register"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bt_button"
+        android:text="Register"
+        app:layout_constraintBottom_toTopOf="@+id/textView3Register"
+        app:layout_constraintEnd_toEndOf="@+id/viewRegister"
+        app:layout_constraintStart_toStartOf="@+id/viewRegister"
+        tools:ignore="HardcodedText,MissingConstraints,DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/textView3Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Login?"
+        android:textColor="#85000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewRegister"
+        app:layout_constraintEnd_toEndOf="@+id/viewRegister"
+        app:layout_constraintStart_toStartOf="@+id/viewRegister"
+
+        tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck" />
+
+    <RadioGroup
+        android:id="@+id/rdgJensiat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/text_fild"
+
+        android:orientation="horizontal"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/viewRegister"
+        app:layout_constraintStart_toStartOf="@+id/viewRegister"
+        app:layout_constraintTop_toBottomOf="@+id/textfildPasswordRegister">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="9dp"
+            android:paddingRight="10dp"
+            android:text="Male"
+            android:textSize="18dp"
+            tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded,SpUsage,TextSizeCheck,UselessLeaf" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="9dp"
+            android:text="Female"
+            android:textSize="18dp"
+            tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded,SpUsage,UselessLeaf,TextSizeCheck" />
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/boxlist"
+        android:entries="@array/Mardrak_Tahsili"
+        android:paddingLeft="20dp"
+        android:paddingTop="8dp"
+        android:paddingRight="1dp"
+        android:paddingBottom="8dp"
+        android:spinnerMode="dialog"
+        app:layout_constraintEnd_toEndOf="@+id/viewRegister"
+        app:layout_constraintStart_toStartOf="@+id/viewRegister"
+        app:layout_constraintTop_toBottomOf="@+id/rdgJensiat"
+        tools:ignore="RtlHardcoded,TouchTargetSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

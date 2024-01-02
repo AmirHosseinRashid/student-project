@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AmirhosseinRashid</string>
+    <string name="email_label">Amirhossein@gmail.com</string>
+    <string name="Setting_label">Setting</string>
+    <string name="notification_label">Notification</string>
+    <string name="payment_label">Payment</string>
+</resources>

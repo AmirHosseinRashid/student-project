@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="Mardrak_Tahsili">
+        <item>Diplom</item>
+        <item>Foge-Diplom</item>
+        <item>Lisans</item>
+        <item>Foge-Lisans</item>
+        <item>Arshad</item>
+        <item>Doctora</item>
+    </string-array>
+</resources>
